@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Jost';
+    background-image: url(/background.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.homepage{
+    text-align: center;
+}
+
+.homepage .welcome{
+    color: black;
+    font-family: 'Bebas Neue';
+    font-size: 130px;
+    line-height: 1;
+    padding-top: 140px;
+}
+
+.homepage .website{
+    color: black;
+    font-family: 'Bebas Neue';
+    font-size: 100px;
+    line-height: 1;
+}
+
+.homepage .deskripsi{
+    color: black;
+    font-family: 'Jost';
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.homepage p{
+    color: black;
+    font-family: 'Jost';
+    font-size: 20px;
+}
+
+.homepage .tombol{
+    background: black;
+    font-size: 20px;
+    color: white;
+    font-family: 'Bebas Neue';
+    border: 2px black;
+    padding: 8px 25px;
+    border-radius: 50px;
+    margin-top: 13px;
+    cursor: pointer;
+}
+
+.navbar{
+    background: black;
+    padding: 12px 40px;
+    border-radius: 50px;
+    width: fit-content;
+    margin: 20px auto;
+}
+
+.navbar .navlinks a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin: 0px 10px;
+    font-weight: 500;
+}
+
+span{
+    display: inline-block;
+    width: 100px;
+}
+
+.myprofile .profileku{
+    color: black;
+    text-align: left;
+    font-family: 'Bebas Neue';
+    font-size: 80px;
+}
+
+.myprofile{
+    color: black;
+    text-align: left;
+    font-family: 'Jost';
+    font-weight: bold;
+    font-size: 20px;
+    padding: 50px 60px;
+    width: 60%;
+    min-height: 420px;
+    background: rgba(240, 240, 240, 0.64);
+    border-radius: 50px;
+    margin: 50px auto;
+    backdrop-filter: blur(7px);
+}
+
+.asal .kab{
+    color: black;
+    text-align: left;
+    font-family: 'Bebas Neue';
+    font-size: 80px;
+}
+
+.asal{
+    color: black;
+    text-align: left;
+    font-family: 'Jost';
+    font-weight: bold;
+    font-size: 20px;
+    padding: 50px 60px;
+    width: 60%;
+    min-height: 500px;
+    background: rgba(240, 240, 240, 0.64);
+    border-radius: 50px;
+    margin: 50px auto;
+    backdrop-filter: blur(7px);
+    text-align: justify;
+}
+
+.makanan .sate{
+    color: black;
+    text-align: left;
+    font-family: 'Bebas Neue';
+    font-size: 80px;
+}
+
+.makanan{
+    color: black;
+    text-align: left;
+    font-family: 'Jost';
+    font-weight: bold;
+    font-size: 20px;
+    padding: 50px 60px;
+    width: 60%;
+    min-height: 500px;
+    background: rgba(240, 240, 240, 0.64);
+    border-radius: 50px;
+    margin: 50px auto;
+    backdrop-filter: blur(7px);
+    text-align: justify;
+}
+
+.tempat .wisata{
+    color: black;
+    text-align: left;
+    font-family: 'Bebas Neue';
+    font-size: 80px;
+}
+
+.tempat{
+    color: black;
+    text-align: left;
+    font-family: 'Jost';
+    font-weight: bold;
+    font-size: 20px;
+    padding: 50px 60px;
+    width: 60%;
+    min-height: 500px;
+    background: rgba(240, 240, 240, 0.64);
+    border-radius: 50px;
+    margin: 50px auto;
+    backdrop-filter: blur(7px);
+    text-align: justify;
+}
